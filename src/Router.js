@@ -8,6 +8,7 @@ var Router = function(Routes) {
   });
 };
 
+// Inject the Routes
 di.annotate(Router, new di.Inject(Routes));
 
 module.exports = Router;
